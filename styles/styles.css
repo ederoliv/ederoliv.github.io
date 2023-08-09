@@ -2,10 +2,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #cargo {
+    font-size: 1.3rem;
     font-style: italic;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 50%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: rgb(60, 10, 153);
 }
