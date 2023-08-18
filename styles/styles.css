@@ -30,7 +30,7 @@ li {
     margin: 5px;
     padding: 20px;
     border: 5px solid transparent;
-    border-image: linear-gradient(to bottom right, #f06, #9f6) 1;
+    border-image: linear-gradient(to bottom right, #9845E8, #33D2FF, green) 1;
     border-radius: 20px; 
     
 }
