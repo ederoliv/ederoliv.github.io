@@ -1,10 +1,18 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color: #242424;
+    color: #1489CA;
+ 
 }
 #logo {
+    display: flex;
     font-size: 30px;
-    color: #00ADB5;
 }
 #cargo {
     font-size: 1.3rem;
@@ -15,5 +23,19 @@ body {
 h2 {
     font-size: 1.2rem;
     font-weight: lighter;
-    color: white;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #f06, #9f6) 1;
+    border-radius: 20px; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
