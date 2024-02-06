@@ -99,7 +99,7 @@ body{
 }
 .apresentacao__imagem {
     width: 50%;
-    border-radius: 5%;
+    border-radius: 50%;
 }
 .rodape{
     color: var(--cor-fundo);
