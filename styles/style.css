@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('assets/SF-Pro-Text-Regular.otf');
+}
 :root {
     --cor-fundo: #000000;
     --cor-primaria: white;
@@ -7,7 +10,7 @@
     --cor-terciaria: #1FB58A;
     --cor-hover: #272727;
 
-    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-primaria: 'SF-Pro', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 *{
@@ -56,7 +59,7 @@ body{
 }
 .apresentacao__conteudo__texto{
     color: var(--cor-primaria);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -92,6 +95,7 @@ body{
 }
 .apresentacao__imagem {
     width: 50%;
+    border-radius: 5%;
 }
 .rodape{
     color: var(--cor-fundo);
