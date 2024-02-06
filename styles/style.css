@@ -42,6 +42,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10%;
 }
 .apresentacao__conteudo{
     width: 50%;
@@ -91,6 +92,7 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
+
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
@@ -127,5 +129,6 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+
 
 }
