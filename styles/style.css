@@ -62,7 +62,7 @@ body{
     color: var(--cor-primaria);
     font-size: 1.25rem;
     font-family: var(--fonte-primaria);
-    fon
+    font-weight: 200;
 }
 
 .apresentacao__links{
