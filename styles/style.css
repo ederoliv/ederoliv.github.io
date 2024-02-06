@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*/
 @font-face {
-    font-family: 'SF-Pro';
-    src: url('assets/SF-Pro-Text-Regular.otf');
+    font-family: SFPro;
+    src: url(/assets/SF-Pro.ttf);
 }
 :root {
     --cor-fundo: #000000;
@@ -10,8 +11,7 @@
     --cor-terciaria: #1FB58A;
     --cor-hover: #272727;
 
-    --fonte-primaria: 'SF-Pro', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-primaria: 'SFPro', sans-serif;
 }
 *{
     margin: 0;
@@ -31,7 +31,7 @@ body{
     gap: 80px;
 }
 .cabecalho__menu__link{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -53,6 +53,7 @@ body{
 .apresentacao__conteudo__titulo{
     font-size: 2.30rem;
     font-family: var(--fonte-primaria);
+    font-weight: 400;
 }
 .titulo-destaque{
     color: var(--cor-terciaria);
@@ -60,7 +61,8 @@ body{
 .apresentacao__conteudo__texto{
     color: var(--cor-primaria);
     font-size: 1.25rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
+    fon
 }
 
 .apresentacao__links{
@@ -88,7 +90,7 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
@@ -102,7 +104,7 @@ body{
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 400;
 }
