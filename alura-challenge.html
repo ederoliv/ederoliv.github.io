@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografia</title>
+</head>
+<body>
+  <h1>Criptografia de Texto</h1>
+  
+  <label for="text">Texto:</label>
+  <textarea id="text" rows="4" cols="50"></textarea><br><br>
+  
+  <label for="mode">Modo:</label>
+  <select id="mode">
+    <option value="encrypt">Criptografar</option>
+    <option value="decrypt">Descriptografar</option>
+  </select><br><br>
+  
+  <button onclick="convertText()">Converter</button><br><br>
+  
+  <label for="result">Resultado:</label>
+  <textarea id="result" rows="4" cols="50"></textarea><br><br>
+  
+  <button onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+
+  <script>
+    function convertText() {
+      var text = document.getElementById("text").value.toLowerCase();
+      var mode = document.getElementById("mode").value;
+      var result = "";
+      
+      if (mode === "encrypt") {
+        result = encrypt(text);
+      } else if (mode === "decrypt") {
+        result = decrypt(text);
+      }
+      
+      document.getElementById("result").value = result;
+    }
+
+    function encrypt(text) {
+      return text.replace(/e/g, "enter")
+                 .replace(/i/g, "imes")
+                 .replace(/a/g, "ai")
+                 .replace(/o/g, "ober")
+                 .replace(/u/g, "ufat");
+    }
+
+    function decrypt(text) {
+      return text.replaceAll("enter", "e")
+                 .replace(/imes/g, "i")
+                 .replace(/ai/g, "a")
+                 .replace(/ober/g, "o")
+                 .replace(/ufat/g, "u");
+    }
+
+    function copyToClipboard() {
+      var resultTextarea = document.getElementById("result");
+      resultTextarea.select();
+      document.execCommand("copy");
+      alert("Texto copiado para a área de transferência!");
+    }
+  </script>
+</body>
+</html>
