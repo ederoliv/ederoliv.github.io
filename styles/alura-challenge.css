@@ -1,23 +1,29 @@
-.apresentacao__conteudo__challenge{
+.apresentacao__challenge{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
 
+.apresentacao__conteudo__challenge{
+  display: flex;
+  justify-content: center;
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 15px;
 }
 
 .apresentacao__conteudo__itens{
   background-color: var(--cor-fundo);
   display: flex;
   justify-content: center;
-  gap: 16px;
   border: 2px solid var(--cor-terciaria);
-  width: 50%;
+  width: 80%;
   text-align: center;
   border-radius: 8px;
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 21.5px 0;
+  padding: 15px 0;
   text-decoration: none;
   color: var(--cor-secundaria);
   font-family: var(--fonte-primaria);
