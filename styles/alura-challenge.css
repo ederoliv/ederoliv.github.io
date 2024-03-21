@@ -1,0 +1,31 @@
+.apresentacao__conteudo__challenge{
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo__itens{
+  background-color: var(--cor-fundo);
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid var(--cor-terciaria);
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
+}
+
+#text, #result {
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    padding: 5px;
+  }

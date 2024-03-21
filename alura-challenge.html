@@ -4,25 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Criptografia</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/alura-challenge.css">
 </head>
 <body>
-  <h1>Criptografia de Texto</h1>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+
+<main class="apresentacao__challenge">
+    <section class="apresentacao__conteudo__challenge">
+  <h1 class="apresentacao__conteudo__titulo">Criptografia de Texto</h1>
   
   <label for="text">Texto:</label>
-  <textarea id="text" rows="4" cols="50"></textarea><br><br>
+  <textarea class="apresentacao__conteudo__itens" id="text" rows="4" cols="50"></textarea><br><br>
   
   <label for="mode">Modo:</label>
-  <select id="mode">
+  <select class="apresentacao__conteudo__itens" id="mode">
     <option value="encrypt">Criptografar</option>
     <option value="decrypt">Descriptografar</option>
   </select><br><br>
   
-  <button onclick="convertText()">Converter</button><br><br>
+  <button class="apresentacao__conteudo__itens" onclick="convertText()">Converter</button><br><br>
   
   <label for="result">Resultado:</label>
-  <textarea id="result" rows="4" cols="50"></textarea><br><br>
+  <textarea class="apresentacao__conteudo__itens" id="result" rows="4" cols="50"></textarea><br><br>
   
-  <button onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+  <button class="apresentacao__conteudo__itens" onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+
 
   <script>
     function convertText() {
@@ -62,5 +74,7 @@
       alert("Texto copiado para a área de transferência!");
     }
   </script>
+</section>
+</main>
 </body>
 </html>
