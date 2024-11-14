@@ -13,14 +13,17 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #000;
+            background-color: #282929;
             font-family: 'Poppins', sans-serif;
-            color: #1ABC9C;
+            color: #50D2C2;
             text-align: center;
         }
 
         .container {
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         h1 {
@@ -28,26 +31,41 @@
             margin-bottom: 20px;
         }
 
+        #github-btn {
+            color: #50D2C2;
+            border: 2px solid #50D2C2;
+        }
+
+        #goeat-btn {
+            color: #06CF90;
+            border: 2px solid #623CA7;
+        }
+
         a {
             text-decoration: none;
             font-size: 1.2rem;
-            color: #1ABC9C;
+
             padding: 10px 20px;
-            border: 2px solid #1ABC9C;
+
             border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
         }
 
-        a:hover {
+        #github-btn:hover {
             background-color: #1ABC9C;
-            color: #000;
+            color: #282929;
+        }
+        #goeat-btn:hover {
+            background-color: #623CA7;
+            color: #06CF90;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Página em manutenção...</h1>
-        <a href="https://github.com/ederoliv">Ir para o GitHub</a>
+        <a id="github-btn" href="https://github.com/ederoliv">Ir para o GitHub</a>
+        <a id="goeat-btn" href="https://goeat.ederoliv.com.br">Projeto Goeat</a>
     </div>
 </body>
 </html>
