@@ -4,19 +4,19 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header / Navbar */}
-      <header className="fixed top-0 w-full z-50 bg-[#1c1c1c]/80 backdrop-blur-md border-b border-white/10">
-        <nav className="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
-          <div className="text-2xl font-bold tracking-tighter">
-            Eder<span className="text-[#32E6E2]">Oliveira</span>
+      <header className="w-full z-50">
+        <nav className="top-5 max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
+          <div className="text-5xl tracking-tighter">
+            Eder<span className="font-bold text-[#32E6E2]">Oliveira</span>
           </div>
-          <ul className="hidden md:flex gap-8 items-center text-sm font-medium uppercase tracking-widest">
-            <li><a href="#sobre" className="hover:text-[#32E6E2] transition-colors">Sobre</a></li>
-            <li><a href="#portfolion" className="hover:text-[#32E6E2] transition-colors">Portfólio</a></li>
+          <ul className="hidden md:flex gap-8 items-center text-2xl font-bold tracking-widest">
+            <li><a href="#sobre" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Sobre</a></li>
+            <li><a href="#portfolion" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Portfólio</a></li>
             <li>
               <a 
                 href="/curriculo.pdf" 
-                target="_blank" 
-                className="border border-[#32E6E2] text-[#32E6E2] px-6 py-2 rounded-sm hover:bg-[#32E6E2] hover:text-black transition-all"
+                target="_blank"
+                className="border border-[#32E6E2] text-[#32E6E2] px-6 py-2 rounded-xl hover:bg-[#32E6E2] hover:text-black transition-all"
               >
                 Currículo
               </a>
@@ -25,12 +25,12 @@ function App() {
         </nav>
       </header>
 
-      <main className="flex-grow pt-20">
+      <main className="grow pt-20">
         {/* Hero Section */}
         <section className="max-w-6xl mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1 space-y-6 text-center md:text-left">
-            <h2 className="text-[#32E6E2] text-xl font-medium">Desenvolvedor</h2>
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">FullStack</h1>
+            <h2 className="text-5xl">Desenvolvedor</h2>
+            <h1 className="text-[#32E6E2] text-5xl md:text-7xl font-bold leading-tight">FullStack</h1>
             <p className="text-gray-400 max-w-lg leading-relaxed">
               Transformando ideias em soluções digitais robustas e escaláveis. 
               Focado em criar interfaces intuitivas no Frontend e arquiteturas eficientes no Backend.
@@ -38,7 +38,7 @@ function App() {
           </div>
           <div className="flex-1 flex justify-center">
             {/* Espaço para a ilustração da imagem */}
-            <img src="/src/assets/hero.png" alt="Ilustração Tech" className="w-full max-w-md animate-pulse" />
+            <img src="/public/dashboard.svg" alt="Ilustração Tech" className="w-full max-w-5xl animate-pulse" />
           </div>
         </section>
 
@@ -69,7 +69,7 @@ function App() {
         </section>
 
         {/* Portfólio (Slider Concept) */}
-        <section id="portfolio" className="bg-black/30 py-20">
+        <section id="portfolio">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-center text-3xl font-bold mb-16 uppercase tracking-widest">Portfólio</h2>
             <div className="relative flex items-center group">
