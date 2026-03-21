@@ -37,7 +37,7 @@ function App() {
             </p>
           </div>
           <div className="flex-1 flex justify-center">
-            <img src="../public/dashboard.svg" alt="Ilustração Tech" className="w-full max-w-5xl animate-pulse" />
+            <img src="dashboard.svg" alt="Ilustração Tech" className="w-full max-w-5xl animate-pulse" />
           </div>
         </section>
 
