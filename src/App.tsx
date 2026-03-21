@@ -37,12 +37,10 @@ function App() {
             </p>
           </div>
           <div className="flex-1 flex justify-center">
-            {/* Espaço para a ilustração da imagem */}
-            <img src="/public/dashboard.svg" alt="Ilustração Tech" className="w-full max-w-5xl animate-pulse" />
+            <img src="../public/dashboard.svg" alt="Ilustração Tech" className="w-full max-w-5xl animate-pulse" />
           </div>
         </section>
 
-        {/* Sobre Mim */}
         <section id="sobre" className="max-w-5xl mx-auto px-6 py-20">
           <h2 className="text-center text-3xl font-bold mb-16 uppercase tracking-widest">Sobre <span className="text-[#32E6E2]">mim</span></h2>
           <div className="flex flex-col md:flex-row items-center gap-12">
