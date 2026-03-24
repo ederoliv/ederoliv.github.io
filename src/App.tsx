@@ -11,7 +11,7 @@ function App() {
           </div>
           <ul className="hidden md:flex gap-8 items-center text-2xl font-medium tracking-widest">
             <li><a href="#sobre" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Sobre</a></li>
-            <li><a href="#portfolion" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Portfólio</a></li>
+            <li><a href="#portifolio" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Portfólio</a></li>
             <li>
               <a 
                 href="/curriculo.pdf" 
@@ -31,7 +31,7 @@ function App() {
           <div className="flex-1 space-y-6 text-center md:text-left">
             <h2 className="text-5xl">Desenvolvedor</h2>
             <h1 className="text-[#32E6E2] text-5xl md:text-7xl font-bold leading-tight">FullStack</h1>
-            <p className="text-gray-400 max-w-lg leading-relaxed">
+            <p className="text-gray-400 text-[20px] md:text-lgax-w-lg leading-relaxed">
               Transformando ideias em soluções digitais robustas e escaláveis. 
               Focado em criar interfaces intuitivas no Frontend e arquiteturas eficientes no Backend.
             </p>
@@ -68,15 +68,15 @@ function App() {
         </section>
 
 
-        <section id="portfolio">
+        <section id="portifolio">
           <div className="max-w-6xl mx-auto px-6">
-            <h2 className="text-center text-5xl text-[#32E6E2] font-bold mb-16 tracking-widest">Portfólio</h2>
+            <h2 className="text-center text-5xl text-[#32E6E2] font-bold mb-16 tracking-widest mt-20">Portfólio</h2>
             <div className="relative flex items-center group">
               <button className="absolute -left-4 z-10 p-2 text-white/50 hover:text-[#32E6E2] transition-colors">
                 <ChevronLeft size={48} />
               </button>
               
-              <div className="w-full h-[400px] bg-[#111] border border-white/10 rounded-xl overflow-hidden flex items-center justify-center relative">
+              <div className="w-full h-100 bg-[#111] border border-white/10 rounded-xl overflow-hidden flex items-center justify-center relative">
                 {/* Placeholder para os projetos */}
                 <div className="text-center space-y-4">
                   <h3 className="text-2xl font-bold">Nome do Projeto</h3>
@@ -119,7 +119,7 @@ function App() {
       </main>
 
 
-      <footer className="border-t border-[#32E6E2]/20 py-12 mt-20">
+      <footer className="border-t border-[#32E6E2]/50 py-12 mt-20">
         <div className="max-w-6xl mx-auto px-6 flex flex-col items-center gap-6">
           <div className="flex gap-8">
             <a href="https://www.linkedin.com/in/ederoliv" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#32E6E2] transition-colors"><Linkedin /></a>
