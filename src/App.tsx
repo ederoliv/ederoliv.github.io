@@ -123,11 +123,11 @@ function App() {
       
 
       <div 
-        className="w-full h-[500px] bg-[#111] border border-white/10 rounded-xl overflow-hidden relative group"
+        className="w-full h-125 bg-[#111] border border-white/10 rounded-xl overflow-hidden relative group"
         style={{
           backgroundImage: `url(${projetos[indiceAtivo].imagem})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'top'
+          backgroundSize: '101% 101%',
+          backgroundPosition: 'center'
         }}
       >
 
