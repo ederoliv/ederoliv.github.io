@@ -41,6 +41,12 @@ export function PortifolioPage() {
       imagem: "/espacoalinebueno.png"
     },
     {
+      nome: "Unibits",
+      github: "https://github.com/ederoliv/unibits",
+      demo: "https://unibits.com.br",
+      imagem: "/unibits.png"
+    },
+    {
       nome: "Goeat",
       descricao: "Sistema de delivery de comida.",
       github: "https://github.com/ederoliv/goeat-sejaparceiro",
