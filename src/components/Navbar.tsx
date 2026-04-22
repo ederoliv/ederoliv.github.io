@@ -5,14 +5,14 @@ export function Navbar() {
         <div className="text-5xl tracking-tighter">
           Eder<span className="font-bold text-[#32E6E2]">Oliveira</span>
         </div>
-        <ul className="hidden md:flex gap-8 items-center text-2xl font-medium tracking-widest">
-          <li><a href="#sobre" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Sobre</a></li>
-          <li><a href="#portifolio" className="text-[#32E6E2] hover:shadow-2xl transition-colors">Portfólio</a></li>
+        <ul className="hidden md:flex gap-8 items-center text-white text-2xl font-medium tracking-widest">
+          <li><a href="#sobre" className="hover:shadow-2xl transition-colors">Sobre</a></li>
+          <li><a href="#portifolio" className="hover:shadow-2xl transition-colors">Portfólio</a></li>
           <li>
             <a 
               href="/curriculo.pdf" 
               target="_blank"
-              className="border border-[#32E6E2] text-[#32E6E2] px-6 py-2 rounded-xl hover:bg-[#32E6E2] hover:text-black transition-all"
+              className="border border-[#32E6E2] px-6 py-2 rounded-xl hover:bg-[#32E6E2] hover:text-black transition-all"
             >
               Currículo
             </a>

@@ -18,7 +18,7 @@ function CategoryPlaceholder({ title, description, icon: Icon }: { title: string
   );
 }
 
-export function PortifolioPage() {
+export function PortfolioPage() {
   const [indiceAtivo, setIndiceAtivo] = useState(0);
 
   const sitesInstitucionais = [
