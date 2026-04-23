@@ -67,7 +67,7 @@ export function IndexPage() {
           </div>
 
           <Link 
-            to="/portifolio" 
+            to="/portfolio" 
             className="inline-block bg-[#32E6E2] text-black font-bold px-10 py-4 rounded-md hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(50,230,226,0.3)]"
           >
             Ver Portfólio Completo
