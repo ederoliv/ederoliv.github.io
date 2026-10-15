@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Seu Nome — Dev Fullstack" width="100%">
+<img src="./assets/banner.svg" alt="Eder Oliveira — Dev Fullstack" width="100%">
 
 </div>
 
@@ -21,11 +21,11 @@ Gosto de ver uma ideia sair do banco de dados e chegar funcionando na mão de qu
 
 ```text
 ┌─ FICHA DO DESENVOLVEDOR ──────────────────────┐
-│ NOME     Seu Nome                             │
+│ NOME     Eder Oliveira                        │
 │ FUNÇÃO   Dev Fullstack Jr                     │
 │ BASE     Brasil                               │
 │ FOCO     .NET · React · Next.js · Mobile      │
-│ STATUS   ONLINE — aberto a propostas          │
+│ STATUS   ONLINE — aberto a projetos          │
 └───────────────────────────────────────────────┘
 ```
 
